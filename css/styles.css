@@ -1,0 +1,74 @@
+#header {
+  background-color: rgb(94, 194, 194);
+  border-bottom: 10px solid rgb(68, 160, 172);
+  color: white;
+}
+#headerContent {
+  
+  
+  
+  display:flex;
+  justify-content: end;
+
+}
+
+#separador {
+  background-color: rgb(94, 194, 194);
+  padding-left: 5px;
+  box-shadow: 0 1.9px 2.7px rgba(0, 0, 0, 0.101),
+    0 4.8px 6.9px rgba(0, 0, 0, 0.137), 0 9.7px 14.2px rgba(0, 0, 0, 0.16),
+    0 20.1px 29.2px rgba(0, 0, 0, 0.185), 0 55px 80px rgba(0, 0, 0, 0.25);
+}
+#sobreMi {
+  background-color: rgba(243, 241, 241, 0.842);
+  box-shadow: 0 33.3px 10px rgba(0, 0, 0, 0.064),
+    0 266px 80px rgba(0, 0, 0, 0.07);
+  
+}
+
+
+.card-body{
+  transition: 500ms;
+}
+
+.card-body:hover{
+  
+  background: rgba(247, 243, 243, 0.945);
+  cursor: pointer;
+
+}
+#imagenSeparador {
+  background-image: url(https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=1600,q=80,fit=contain/content/2013/08/Van_Gogh_-_Starry_Night_-_Google_Art_Project1.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  border-bottom: 10px rgb(68, 160, 172);
+}
+#titulo {
+  color: white;
+  font-size: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: end;
+  -webkit-text-stroke: 3px rgb(68, 160, 172);
+}
+.botonComprar {
+  background-color: teal;
+}
+#contacto {
+  background-color: rgb(109, 216, 198);
+  padding: 10px;
+}
+.precio {
+  float: right;
+}
+
+.flotante {
+  display: scroll;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  color: #000;
+  background: #fff;
+  border-radius: 100px;
+  font-size: 25px;
+}
